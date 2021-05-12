@@ -29,12 +29,11 @@
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(220,245,247,1) 7%, rgba(63,197,212,1) 28%, rgba(106,210,222,1) 75%, rgba(228,247,249,1) 94%, rgba(255,255,255,1) 100%);;
 }
 .titulo__ubicacion{
-    margin-left: 46.5%;
+    text-align: center ;
 }
 .carrucel__tamaño{
     width: 700px;
     height: 350px;
-    margin-left: 595px;
 }
 .carrucel{
     padding: 10px;
@@ -100,4 +99,26 @@ margin-right: 500px;
 }
 .carusel__noe{
     margin-left: 280px;
+}
+.carrucel__ubicacion{
+    display: flex;
+    justify-content: center;
+}
+.descripcion{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 812px) and (min-width: 320px){
+    .carrucel__tamaño{
+        width: 350px;
+        height: 200px;
+    }
+    #modale{
+        height: 400px;
+        width: 350px;
+    }
+    #modali{
+        display: flex;
+        justify-self:center;
+    }
 }
