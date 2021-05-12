@@ -62,7 +62,6 @@
     margin-left: 40%;
 }
 .ubicacion__perfil{
-    margin-left: 600px;
     border: black 10px solid;
 }
 .ubicacion__controli{
@@ -73,7 +72,6 @@ margin-right: 500px;
 }
 .acordion1{
     width: 900px;
-    margin-left: 26.5%;
     margin-top: 20px;
 }
 .titulo__ubicacion1{
@@ -82,15 +80,15 @@ margin-right: 500px;
 }
 .agus{
    list-style: none;
-   display: flex;    
+   display: flex;
+   justify-content: center;    
 
 }
 .ubicacion__perfil1{
-    margin-left: 10px;
     border: black 10px solid;
 }
 .info__agus{
-    margin-left: 280px;
+    padding: 10px;
     width: 800px;
 }
 .info__noe{
@@ -105,6 +103,15 @@ margin-right: 500px;
     justify-content: center;
 }
 .descripcion{
+    display: flex;
+    justify-content: center;
+}
+.responsive{
+    display: flex;
+    justify-content: center;
+    
+}
+.acordion__responsive{
     display: flex;
     justify-content: center;
 }
